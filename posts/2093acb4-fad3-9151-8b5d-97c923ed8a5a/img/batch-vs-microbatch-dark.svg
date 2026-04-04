@@ -1,0 +1,147 @@
+<svg viewBox="0 0 960 420" xmlns="http://www.w3.org/2000/svg">
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans KR','Apple SD Gothic Neo',sans-serif}</style>
+  <rect width="960" height="420" fill="#1a1a2e" rx="12"/>
+
+  <!-- Left title & badge -->
+  <text x="285" y="28" text-anchor="middle" fill="#c8c8d8" font-size="14" font-weight="600">1초 배치</text>
+  <rect x="210" y="38" width="150" height="22" rx="4" fill="#3a1218" stroke="#e74c3c" stroke-width="0.8"/>
+  <text x="285" y="54" text-anchor="middle" fill="#ff6b6b" font-size="11" font-weight="500">순간 피크 215 TPS</text>
+
+  <!-- Right title & badge -->
+  <text x="725" y="28" text-anchor="middle" fill="#c8c8d8" font-size="14" font-weight="600">100ms 마이크로 배칭</text>
+  <rect x="660" y="38" width="130" height="22" rx="4" fill="#0d2818" stroke="#4ecca3" stroke-width="0.8"/>
+  <text x="725" y="54" text-anchor="middle" fill="#4ecca3" font-size="11" font-weight="500">순간 피크 ~21 TPS</text>
+
+  <!-- ===== Left chart ===== -->
+  <!-- Y-axis labels -->
+  <text x="95" y="74" text-anchor="end" fill="#6a6a80" font-size="10">250</text>
+  <text x="95" y="130" text-anchor="end" fill="#6a6a80" font-size="10">200</text>
+  <text x="95" y="186" text-anchor="end" fill="#6a6a80" font-size="10">150</text>
+  <text x="95" y="242" text-anchor="end" fill="#6a6a80" font-size="10">100</text>
+  <text x="95" y="298" text-anchor="end" fill="#6a6a80" font-size="10">50</text>
+  <text x="95" y="354" text-anchor="end" fill="#6a6a80" font-size="10">0</text>
+
+  <!-- Grid lines -->
+  <line x1="100" y1="70" x2="450" y2="70" stroke="#2a2a42" stroke-width="0.5"/>
+  <line x1="100" y1="126" x2="450" y2="126" stroke="#2a2a42" stroke-width="0.5"/>
+  <line x1="100" y1="182" x2="450" y2="182" stroke="#2a2a42" stroke-width="0.5"/>
+  <line x1="100" y1="238" x2="450" y2="238" stroke="#2a2a42" stroke-width="0.5"/>
+  <line x1="100" y1="294" x2="450" y2="294" stroke="#2a2a42" stroke-width="0.5"/>
+  <line x1="100" y1="350" x2="450" y2="350" stroke="#2a2a42" stroke-width="0.5"/>
+
+  <!-- Axes -->
+  <line x1="100" y1="70" x2="100" y2="350" stroke="#3a3a55" stroke-width="1"/>
+  <line x1="100" y1="350" x2="450" y2="350" stroke="#3a3a55" stroke-width="1"/>
+
+  <!-- X ticks: 0s=130, 1s=210, 2s=290, 3s=370, 4s=450 (spacing=80px) -->
+  <line x1="130" y1="350" x2="130" y2="354" stroke="#3a3a55" stroke-width="1"/>
+  <line x1="210" y1="350" x2="210" y2="354" stroke="#3a3a55" stroke-width="1"/>
+  <line x1="290" y1="350" x2="290" y2="354" stroke="#3a3a55" stroke-width="1"/>
+  <line x1="370" y1="350" x2="370" y2="354" stroke="#3a3a55" stroke-width="1"/>
+  <line x1="450" y1="350" x2="450" y2="354" stroke="#3a3a55" stroke-width="1"/>
+
+  <text x="130" y="368" text-anchor="middle" fill="#6a6a80" font-size="10">0s</text>
+  <text x="210" y="368" text-anchor="middle" fill="#6a6a80" font-size="10">1s</text>
+  <text x="290" y="368" text-anchor="middle" fill="#6a6a80" font-size="10">2s</text>
+  <text x="370" y="368" text-anchor="middle" fill="#6a6a80" font-size="10">3s</text>
+  <text x="450" y="368" text-anchor="middle" fill="#6a6a80" font-size="10">4s</text>
+
+  <!-- Bars centered ON tick marks: 0s=130, 1s=210, 2s=290, 3s=370 -->
+  <rect x="108" y="119" width="44" height="231" rx="3" fill="#e74c3c" opacity="0.85"/>
+  <rect x="188" y="119" width="44" height="231" rx="3" fill="#e74c3c" opacity="0.85"/>
+  <rect x="268" y="119" width="44" height="231" rx="3" fill="#e74c3c" opacity="0.85"/>
+  <rect x="348" y="119" width="44" height="231" rx="3" fill="#e74c3c" opacity="0.85"/>
+
+  <text x="55" y="210" text-anchor="middle" fill="#6a6a80" font-size="10" transform="rotate(-90 55 210)">TPS</text>
+
+
+  <!-- ===== Right chart ===== -->
+  <!-- Y-axis labels -->
+  <text x="550" y="74" text-anchor="end" fill="#6a6a80" font-size="10">250</text>
+  <text x="550" y="130" text-anchor="end" fill="#6a6a80" font-size="10">200</text>
+  <text x="550" y="186" text-anchor="end" fill="#6a6a80" font-size="10">150</text>
+  <text x="550" y="242" text-anchor="end" fill="#6a6a80" font-size="10">100</text>
+  <text x="550" y="298" text-anchor="end" fill="#6a6a80" font-size="10">50</text>
+  <text x="550" y="354" text-anchor="end" fill="#6a6a80" font-size="10">0</text>
+
+  <!-- Grid lines -->
+  <line x1="555" y1="70" x2="905" y2="70" stroke="#2a2a42" stroke-width="0.5"/>
+  <line x1="555" y1="126" x2="905" y2="126" stroke="#2a2a42" stroke-width="0.5"/>
+  <line x1="555" y1="182" x2="905" y2="182" stroke="#2a2a42" stroke-width="0.5"/>
+  <line x1="555" y1="238" x2="905" y2="238" stroke="#2a2a42" stroke-width="0.5"/>
+  <line x1="555" y1="294" x2="905" y2="294" stroke="#2a2a42" stroke-width="0.5"/>
+  <line x1="555" y1="350" x2="905" y2="350" stroke="#2a2a42" stroke-width="0.5"/>
+
+  <!-- Axes -->
+  <line x1="555" y1="70" x2="555" y2="350" stroke="#3a3a55" stroke-width="1"/>
+  <line x1="555" y1="350" x2="905" y2="350" stroke="#3a3a55" stroke-width="1"/>
+
+  <!-- X ticks: 0s=585, 1s=665, 2s=745, 3s=825, 4s=905 (spacing=80px) -->
+  <line x1="585" y1="350" x2="585" y2="354" stroke="#3a3a55" stroke-width="1"/>
+  <line x1="665" y1="350" x2="665" y2="354" stroke="#3a3a55" stroke-width="1"/>
+  <line x1="745" y1="350" x2="745" y2="354" stroke="#3a3a55" stroke-width="1"/>
+  <line x1="825" y1="350" x2="825" y2="354" stroke="#3a3a55" stroke-width="1"/>
+  <line x1="905" y1="350" x2="905" y2="354" stroke="#3a3a55" stroke-width="1"/>
+
+  <text x="585" y="368" text-anchor="middle" fill="#6a6a80" font-size="10">0s</text>
+  <text x="665" y="368" text-anchor="middle" fill="#6a6a80" font-size="10">1s</text>
+  <text x="745" y="368" text-anchor="middle" fill="#6a6a80" font-size="10">2s</text>
+  <text x="825" y="368" text-anchor="middle" fill="#6a6a80" font-size="10">3s</text>
+  <text x="905" y="368" text-anchor="middle" fill="#6a6a80" font-size="10">4s</text>
+
+  <text x="510" y="210" text-anchor="middle" fill="#6a6a80" font-size="10" transform="rotate(-90 510 210)">TPS</text>
+
+  <!-- 40 micro-batch bars ON 100ms ticks. 100ms=8px, bar-width=6, centered on tick -->
+  <!-- t=0.0s to t=3.9s, tick[i]=585+i*8, bar_x=tick-3 -->
+  <rect x="582" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="590" y="329" width="6" height="21" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="598" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="606" y="328" width="6" height="22" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="614" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="622" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="630" y="329" width="6" height="21" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="638" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="646" y="328" width="6" height="22" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="654" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="662" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="670" y="329" width="6" height="21" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="678" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="686" y="328" width="6" height="22" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="694" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="702" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="710" y="329" width="6" height="21" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="718" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="726" y="328" width="6" height="22" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="734" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="742" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="750" y="329" width="6" height="21" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="758" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="766" y="328" width="6" height="22" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="774" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="782" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="790" y="329" width="6" height="21" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="798" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="806" y="328" width="6" height="22" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="814" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="822" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="830" y="329" width="6" height="21" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="838" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="846" y="328" width="6" height="22" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="854" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="862" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="870" y="329" width="6" height="21" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="878" y="327" width="6" height="23" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="886" y="328" width="6" height="22" rx="1" fill="#4ecca3" opacity="0.8"/>
+  <rect x="894" y="326" width="6" height="24" rx="1" fill="#4ecca3" opacity="0.8"/>
+
+  <!-- Labels -->
+  <text x="290" y="390" text-anchor="middle" fill="#6a6a80" font-size="10">Time</text>
+  <text x="745" y="390" text-anchor="middle" fill="#6a6a80" font-size="10">Time</text>
+
+  <!-- Separator -->
+  <line x1="480" y1="20" x2="480" y2="400" stroke="#2a2a42" stroke-width="1" stroke-dasharray="5 4"/>
+
+  <!-- Annotation -->
+  <rect x="402" y="395" width="160" height="20" rx="4" fill="#1a1a2e" stroke="#3a3a55" stroke-width="0.6"/>
+  <text x="482" y="409" text-anchor="middle" fill="#6a6a80" font-size="9.5">동일한 총 처리량: 215 TPS</text>
+</svg>
